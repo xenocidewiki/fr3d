@@ -1,5 +1,5 @@
-baseURL      = "https://www.example.com/"
-title        = "Gallery Deluxe"
+baseURL      = "https://www.fr3d.photos/"
+title        = "Fred"
 disableKinds = ["section", "taxonomy", "term"]
 
 [params]
@@ -15,7 +15,7 @@ disableKinds = ["section", "taxonomy", "term"]
 
         # Enable Exif data in the gallery.
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
-        enable_exif = true
+        enable_exif = false
 
 [caches]
     [caches.images]
@@ -24,7 +24,7 @@ disableKinds = ["section", "taxonomy", "term"]
 
 [imaging]
     resampleFilter = "CatmullRom"
-    quality        = 71
+    quality        = 100
     anchor         = "smart"
     [imaging.exif]
         disableDate    = false
